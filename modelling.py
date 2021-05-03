@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-!pip install sklearn
+pip install sklearn
 from sklearn.metrics import confusion_matrix, precision_score
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from sklearn.neural_network import MLPClassifier
